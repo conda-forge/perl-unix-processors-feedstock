@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://cpan.metacpan.org/authors/id/W/WS/WSNYDER/Unix-Processors-{{version}}.tar.gz
+  url: https://cpan.metacpan.org/authors/id/W/WS/WSNYDER/Unix-Processors-{{ version }}.tar.gz
   sha256: {{ sha256_hash }}
 
 build:
-  number: 1000
+  number: 1001
   skip: true  # [win]
 
 requirements:
